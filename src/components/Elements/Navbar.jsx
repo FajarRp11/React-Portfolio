@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -8,30 +9,28 @@ const Navbar = () => {
     {
       id: 1,
       title: "Home",
-      path: "/",
     },
     {
       id: 2,
       title: "About",
-      path: "/about",
     },
     {
       id: 3,
-      title: "Contact",
-      path: "/contact",
+      title: "Skills",
     },
   ];
   return (
     <div className="fixed flex items-center justify-end w-full h-16 px-8 md:justify-center md:px-12 text-gray-50">
-      <div className="items-center hidden gap-4 px-8 py-2 bg-gray-300 border rounded-full shadow shadow-black/20 border-gray-50 md:flex">
+      <div className="items-center hidden gap-4 px-8 py-2 border rounded-full shadow bg-white/50 backdrop-blur shadow-black/20 border-gray-50 md:flex">
         {navLink.map(({ id, title, path }) => (
-          <a
-            className="text-gray-900 transition-all duration-200 hover:tracking-wide hover:font-semibold"
-            href={path}
+          <p
+            className="text-gray-900 transition-all duration-200 cursor-pointer hover:tracking-wide hover:font-semibold"
             key={id}
           >
-            {title}
-          </a>
+            <Link to={title} smooth duration={500}>
+              {title}
+            </Link>
+          </p>
         ))}
       </div>
 
@@ -47,16 +46,23 @@ const Navbar = () => {
           <motion.ul
             key={nav}
             initial={{ x: "-100%", opacity: 0 }}
-            animate={{ x: "5%", opacity: 1 }}
+            animate={{ x: "0", opacity: 1 }}
             exit={{ x: "-100%", opacity: 0 }}
-            className="absolute flex flex-col items-center justify-center w-48 gap-2 py-5 text-xl text-center rounded left-7 top-4 h-fit bg-white/60 backdrop-blur"
+            className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen gap-2 py-5 text-xl text-center rounded bg-white/60 backdrop-blur"
           >
-            {navLink.map(({ id, title, path }) => (
+            {navLink.map(({ id, title }) => (
               <li
                 className="text-gray-900 transition-all duration-200 hover:tracking-wide hover:font-semibold"
                 key={id}
               >
-                <a href={path}>{title}</a>
+                <p
+                  className="text-gray-900 transition-all duration-200 cursor-pointer hover:tracking-wide hover:font-semibold"
+                  key={id}
+                >
+                  <Link to={title} smooth duration={500}>
+                    {title}
+                  </Link>
+                </p>
               </li>
             ))}
           </motion.ul>
