@@ -18,6 +18,10 @@ const Navbar = () => {
       id: 3,
       title: "Skills",
     },
+    {
+      id: 4,
+      title: "Projects",
+    },
   ];
   return (
     <div className="fixed flex items-center justify-end w-full h-16 px-8 md:justify-center md:px-12 text-gray-50">

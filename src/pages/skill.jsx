@@ -1,6 +1,6 @@
 import React from "react";
-import { IoLogoJavascript } from "react-icons/io5";
 import { TbTargetArrow } from "react-icons/tb";
+import { IoLogoJavascript } from "react-icons/io5";
 import { FaHtml5, FaCss3Alt, FaReact, FaLaravel, FaPhp } from "react-icons/fa";
 
 const Skills = () => {
@@ -57,7 +57,7 @@ const Skills = () => {
       <div className="grid grid-cols-12 ">
         {skill.map(({ id, name, icon, styles }) => (
           <div
-            className="col-span-6 px-4 py-6 cursor-pointer md:col-span-2"
+            className="col-span-6 px-4 py-6 cursor-pointer md:col-span-4 lg:col-span-2"
             key={id}
           >
             <div

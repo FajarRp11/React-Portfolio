@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../components/Elements/Navbar";
-import HeroImage from "../assets/hero.jpg";
+import HeroImage from "../assets/Images/hero.jpg";
 import ButtonLink from "../components/Elements/ButtonLink";
 import { FaArrowRight } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
