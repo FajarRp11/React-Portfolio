@@ -27,7 +27,7 @@ const Project = () => {
     },
     {
       id: 2,
-      title: "Sistem POS Rahyu Komputer",
+      title: "POS System Rahyu Komputer",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quidem, neque voluptas, quos, quae doloribus tempora voluptates",
       img: "Images/P2.png",
       link: "https://github.com/FajarRp11/SBD-Kelas-A-Kelompok-6-UAS-Kode-Program",
@@ -39,7 +39,7 @@ const Project = () => {
     },
     {
       id: 3,
-      title: "Sistem POS Pecel Lele Bang Toyib",
+      title: "POS System Pecel Lele Bang Toyib",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quidem, neque voluptas, quos, quae doloribus tempora voluptates",
       img: "Images/P3.png",
       link: "https://github.com/FajarRp11/Bang-Toyib",
