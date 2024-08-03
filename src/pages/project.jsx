@@ -54,7 +54,7 @@ const Project = () => {
       title: "Web Portfolio",
       desc: "This is a personal landing page website created as a portfolio. This website was developed with the Tailwindcss framework and React JS.",
       img: "Images/P4.png",
-      link: "https://github.com/FajarRp11",
+      link: "https://github.com/FajarRp11/React-Portfolio",
       tech: [<RiTailwindCssFill key="tailwind" />, <FaReact key="react" />],
     },
     {
