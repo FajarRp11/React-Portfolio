@@ -72,15 +72,15 @@ const Project = () => {
   ];
   return (
     <div className="container px-8 py-4 mx-auto text-gray-900" name="Projects">
-      <h1 className="flex items-center justify-center gap-2 mb-4 text-3xl font-bold text-center">
+      <h1 className="flex items-center justify-center gap-2 mb-8 text-3xl font-bold text-center">
         <span>Projects</span>
         <BsRocketTakeoff />
       </h1>
-      <div className="grid grid-cols-12 gap-4">
+      <div className="grid grid-cols-12 gap-8">
         {project.map(({ id, title, desc, img, link, tech }) => (
           <div
             key={id}
-            className="col-span-12 p-4 flex flex-col justify-between bg-gray-200 md:col-span-6 lg:col-span-4 rounded-xl lg:h-[475px]"
+            className="col-span-12 p-4 flex flex-col justify-between hover:scale-110 duration-200 transition-all bg-gray-200 md:col-span-6 lg:col-span-4 rounded-xl lg:h-[475px]"
           >
             <div>
               <img src={img} alt="" className="rounded" />
