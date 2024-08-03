@@ -49,10 +49,13 @@ const Skills = () => {
   ];
 
   return (
-    <div className="container px-8 py-4 mx-auto text-gray-900" name="Skills">
+    <div
+      className="container px-8 py-4 mx-auto text-gray-900 md:pt-16"
+      name="Skills"
+    >
       <h1 className="flex justify-center gap-2 mb-4 text-3xl font-bold text-center items-centers">
         <span>Skills</span>
-        <TbTargetArrow />
+        <TbTargetArrow size={35} />
       </h1>
       <div className="grid grid-cols-12 ">
         {skill.map(({ id, name, icon, styles }) => (

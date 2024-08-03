@@ -4,12 +4,12 @@ import { IoPersonSharp } from "react-icons/io5";
 const About = () => {
   return (
     <div
-      className="container flex flex-col items-center p-8 py-4 mx-auto text-gray-900"
+      className="container flex flex-col items-center p-8 py-4 mx-auto text-gray-900 md:pt-16"
       name="About"
     >
-      <h1 className="flex items-center justify-center gap-2 mb-4 text-3xl font-bold text-center">
+      <h1 className="flex items-center justify-center w-full gap-2 mb-4 text-3xl font-bold text-center">
         <span>About Me</span>
-        <IoPersonSharp />
+        <IoPersonSharp size={35} />
       </h1>
       <p className="font-medium text-center md:max-w-5xl">
         Hello, I am Fajar! I am from West Sumatra, Indonesia. I am interested in
