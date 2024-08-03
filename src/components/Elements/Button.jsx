@@ -6,12 +6,12 @@ const Button = (props) => {
     type = "button",
   } = props;
   return (
-    <div
+    <button
       className={`flex items-center justify-center gap-2 px-6 py-2 border border-blue-600 tracking-wider cursor-pointer font-medium ${variant} ${width} rounded-full`}
       type={type}
     >
       {children}
-    </div>
+    </button>
   );
 };
 
