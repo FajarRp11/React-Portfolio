@@ -15,16 +15,11 @@ const Contact = () => {
       </h1>
       <div className="flex flex-col items-center justify-center w-full">
         <form
-          action=""
+          action="https://getform.io/f/apjmxgra"
           className="flex flex-col items-center gap-2 px-4 py-4 w-96"
+          method="POST"
         >
           <Input id="name" type="text" name="name" placeholder="Your name" />
-          <Input
-            id="subject"
-            type="text"
-            name="subject"
-            placeholder="Subject"
-          />
           <Input
             id="email"
             type="email"
@@ -34,12 +29,11 @@ const Contact = () => {
           <textarea
             name="message"
             id="message"
-            cols="30"
             rows="10"
             className="w-full px-4 py-2 rounded outline-none text-gray-50 bg-gray-900/65 placeholder:text-gray-50/50"
             placeholder="Your message"
           ></textarea>
-          <Button>Send message</Button>
+          <Button type="submit">Send message</Button>
         </form>
       </div>
     </div>
