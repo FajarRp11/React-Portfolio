@@ -32,7 +32,7 @@ const Home = () => {
           </p>
         </div>
         <div className="flex flex-col items-center gap-2 mb-2 md:mb-8 md:flex-row">
-          <Link to="About" smooth duration={500}>
+          <Link to="Projects" smooth duration={500}>
             <Button>
               <span>Check My Portfolio</span>
               <FaArrowRight size={15} />
