@@ -1,7 +1,7 @@
 import React from "react";
 import { TbTargetArrow } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaHtml5, FaCss3Alt, FaReact, FaLaravel, FaPhp } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaPhp } from "react-icons/fa";
 
 const Skills = () => {
   const skill = [
@@ -42,9 +42,9 @@ const Skills = () => {
 
     {
       id: 6,
-      name: "Laravel",
-      icon: <FaLaravel size={50} />,
-      styles: "hover:shadow hover:shadow-red-600 text-red-600",
+      name: "Bootstrap",
+      icon: <FaBootstrap size={50} />,
+      styles: "hover:shadow hover:shadow-blue-400 text-blue-600",
     },
   ];
 
