@@ -6,7 +6,7 @@ import Button from "../components/Elements/Button";
 const Contact = () => {
   return (
     <div
-      className="container px-8 py-4 mx-auto text-gray-900 md:pt-16"
+      className="container px-8 py-4 mx-auto text-gray-900"
       name="Contact"
     >
       <h1 className="flex justify-center gap-2 mb-2 text-3xl font-bold text-center ">
