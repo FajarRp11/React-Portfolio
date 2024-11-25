@@ -39,13 +39,6 @@ const Skills = () => {
       icon: <FaPhp size={50} />,
       styles: "hover:shadow hover:shadow-blue-400 text-blue-600",
     },
-
-    {
-      id: 6,
-      name: "Laravel",
-      icon: <FaLaravel size={50} />,
-      styles: "hover:shadow hover:shadow-red-600 text-red-600",
-    },
   ];
 
   return (
