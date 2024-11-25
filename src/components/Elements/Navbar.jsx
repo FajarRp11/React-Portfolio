@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div className="fixed flex items-center justify-end w-full h-16 px-8 md:justify-center md:px-12 text-gray-50">
       <div className="items-center hidden gap-4 px-8 py-2 border rounded-full shadow bg-white/50 backdrop-blur shadow-black/20 border-gray-50 md:flex">
-        {navLink.map(({ id, title, path }) => (
+        {navLink.map(({ id, title }) => (
           <p
             className="text-gray-900 transition-all duration-200 cursor-pointer hover:tracking-wide hover:font-semibold"
             key={id}
