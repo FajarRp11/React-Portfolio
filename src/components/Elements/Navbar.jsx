@@ -63,10 +63,7 @@ const Navbar = () => {
                 className="text-gray-900 transition-all duration-200 hover:tracking-wide hover:font-semibold"
                 key={id}
               >
-                <p
-                  className="text-gray-900 transition-all duration-200 cursor-pointer hover:tracking-wide hover:font-semibold"
-                  key={id}
-                >
+                <p>
                   <Link to={title} smooth duration={500}>
                     {title}
                   </Link>
