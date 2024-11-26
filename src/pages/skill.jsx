@@ -1,7 +1,12 @@
-import React from "react";
 import { TbTargetArrow } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaHtml5, FaCss3Alt, FaReact, FaLaravel, FaPhp } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaPhp,
+  FaBootstrap,
+} from "react-icons/fa";
 
 const Skills = () => {
   const skill = [
@@ -37,6 +42,13 @@ const Skills = () => {
       id: 5,
       name: "PHP",
       icon: <FaPhp size={50} />,
+      styles: "hover:shadow hover:shadow-blue-400 text-blue-600",
+    },
+
+    {
+      id: 6,
+      name: "Bootstrap",
+      icon: <FaBootstrap size={50} />,
       styles: "hover:shadow hover:shadow-blue-400 text-blue-600",
     },
   ];
