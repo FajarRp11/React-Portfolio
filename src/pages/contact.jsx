@@ -27,7 +27,6 @@ const Contact = () => {
             id="message"
             rows="10"
             className="w-full px-4 py-2 rounded outline-none text-gray-50 bg-gray-900/65 placeholder:text-gray-50/50"
-            placeholder="Your message"
           ></textarea>
           <Button type="submit" width="w-full">
             Let's talk
