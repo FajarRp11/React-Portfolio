@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
-      className="min-h-screen text-gray-900 bg-gradient-to-b from-blue-500 to-gray-100 relative"
+      className="min-h-screen text-gray-900 bg-gradient-to-b from-blue-500 to-gray-100"
       name="Home"
     >
       <div className="container flex flex-col items-center justify-center w-full h-screen gap-4 px-8 mx-auto overflow-hidden ">
