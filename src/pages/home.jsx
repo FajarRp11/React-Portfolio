@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../assets/Images/hero.jpg";
 import ButtonLink from "../components/Elements/ButtonLink";
 import { FaArrowRight } from "react-icons/fa";
@@ -10,7 +9,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
-      className="min-h-screen text-gray-900 bg-gradient-to-b from-blue-500 to-gray-100"
+      className="min-h-screen text-gray-900 bg-gradient-to-b from-blue-500 to-gray-100 relative"
       name="Home"
     >
       <div className="container flex flex-col items-center justify-center w-full h-screen gap-4 px-8 mx-auto overflow-hidden ">
@@ -39,7 +38,7 @@ const Home = () => {
             </Button>
           </Link>
           <ButtonLink
-            href="https://drive.google.com/file/d/1917LG57C6DUO-JSe3MnNqFQdpB_OYJ-R/view?usp=sharing"
+            href="https://drive.google.com/file/d/1HwWrZ8jVztFO6Rxd-KkBagGmuY-p86tv/view?usp=sharing"
             variant="bg-gray-200 text-gray-900"
             target="_blank"
           >
