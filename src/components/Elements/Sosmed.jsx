@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { IoMdMailUnread } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Sosmed = () => {
   const sosmed = [
@@ -33,14 +34,14 @@ const Sosmed = () => {
   return (
     <div className="flex gap-2">
       {sosmed.map(({ id, title, path, svg }) => (
-        <a
-          href={path}
+        <Link
+          to={path}
           target="_blank"
           key={id}
           className="flex items-center justify-center w-10 text-base text-gray-900 transition-all duration-200 border border-gray-400 rounded-full cursor-pointer hover:bg-blue-600 hover:text-gray-50 md:w-12 md:text-2xl bg-gray-50 aspect-square"
         >
           {svg}
-        </a>
+        </Link>
       ))}
     </div>
   );
